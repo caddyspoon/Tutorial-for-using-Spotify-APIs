@@ -2,11 +2,11 @@
   "name": "express-node",
   "version": "1.0.0",
   "description": "",
-  "main": "app.mjs",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.mjs",
-    "run": "node app.mjs",
+    "start": "node app.js",
+    "run": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -8,7 +8,7 @@ import qs from "qs";
 import { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET } from "./dotenv/env.js";
 
 // TODO: token 별도처리
-import token from "./src/GetAccessToken.mjs";
+import token from "./src/GetAccessToken.js";
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -21,7 +21,6 @@ const redirectUri = "http://localhost:3000/callback";
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  console.log(1);
   res.sendFile(path.join(__dirname, "player.html"));
 });
 
