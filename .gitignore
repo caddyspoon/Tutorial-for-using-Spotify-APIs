@@ -10,6 +10,14 @@
 # Icon must end with two \r
 Icon
 
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
+out
+gen
+build
+rebel.xml
 
 # Thumbnails
 ._*
