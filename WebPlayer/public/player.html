@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Web Player</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .player {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .player__info {
+      display: flex;
+      align-items: center;
+    }
+
+    .player__info img {
+      width: 64px;
+      height: 64px;
+      margin-right: 16px;
+    }
+
+    .player__controls {
+      display: flex;
+      justify-content: center;
+      margin: 16px 0;
+    }
+
+    .player__progress {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #playbackBar {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  </style>
+  <body>
+    <div class="player">
+      <div class="player__info">
+        <img id="albumArt" src="" alt="Album Art" />
+        <div>
+          <p id="trackName">Track Name</p>
+          <p id="artistName">Artist Name</p>
+        </div>
+      </div>
+      <div class="player__controls">
+        <button id="previousButton">Previous</button>
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <button id="nextButton">Next</button>
+      </div>
+      <div class="player__progress">
+        <input
+          id="playbackBar"
+          type="range"
+          min="0"
+          max="100"
+          value="0"
+          step="0.1"
+        />
+        <p id="timeDisplay">0:00 / 0:00</p>
+      </div>
+      <input id="volumeSlider" type="range" min="0" max="100" value="50" />
+    </div>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="player.js"></script>
+  </body>
+</html>
