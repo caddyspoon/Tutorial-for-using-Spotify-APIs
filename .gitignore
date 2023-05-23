@@ -22,6 +22,9 @@ rebel.xml
 # Thumbnails
 ._*
 
+# Media Files
+.mp3
+
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
