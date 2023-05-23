@@ -23,7 +23,7 @@ rebel.xml
 ._*
 
 # Media Files
-.mp3
+*.mp3
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
