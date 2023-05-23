@@ -15,3 +15,10 @@ Jai Guru Deva 🚀
 
 The Directory WebPlayer has been added.
 I am currently developing the Spotify web player using the Spotify API.
+
+# Updated on 23/05/23
+
+The directory "music-player-clone-coding" has been added.
+This product is based on the link below.
+
+https://dev.to/documatic/building-a-music-player-in-react-2aa4
